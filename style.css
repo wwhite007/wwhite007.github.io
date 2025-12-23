@@ -46,3 +46,44 @@ ul {
 li {
   margin: 8px 0;
 }
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.project {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 16px 18px;
+  background: #fff;
+}
+
+.project h3 {
+  margin: 0 0 6px;
+  font-size: 1.15rem;
+}
+
+.project p {
+  margin: 0 0 10px;
+  color: #444;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 2px;
+}
+@media (min-width: 700px) {
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+}
